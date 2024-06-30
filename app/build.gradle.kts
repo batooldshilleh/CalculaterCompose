@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("org.sonarqube") version "5.0.0.4638"
 }
 
 android {
@@ -48,6 +49,19 @@ android {
         }
     }
 }
+
+tasks.register("sonar") {
+    doLast {
+        val properties = mapOf(
+            "sonar.projectKey" to "composeCalculator",
+            "sonar.projectName" to "composeCalculator"
+        )
+        properties.forEach { (key, value) ->
+            System.setProperty(key, value)
+        }
+    }
+}
+
 
 dependencies {
 
