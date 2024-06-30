@@ -6,12 +6,11 @@
 This is a simple yet powerful calculator application built using Jetpack Compose and Kotlin. The app supports multiple operations and can handle both integers and decimal numbers. The user interface is designed to be intuitive and easy to use, leveraging the modern capabilities of Jetpack Compose for a smooth and responsive experience.
 
 ## Screenshots
-<p align="center">
-  <video width="600" height="400" controls>
-    <source src="https://drive.google.com/file/d/1in87cqpDPdW0ZSsGGSiA6Y2HQxYqx8WB/view?usp=sharing" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
+
+
+ [Demo](https://drive.google.com/file/d/1in87cqpDPdW0ZSsGGSiA6Y2HQxYqx8WB/view?usp=sharing)
+
+
 
 ## Features
 
