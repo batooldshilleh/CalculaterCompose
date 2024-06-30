@@ -50,7 +50,7 @@ android {
     }
 }
 
-tasks.register("sonar") {
+tasks.register("customSonar") {
     doLast {
         val properties = mapOf(
             "sonar.projectKey" to "composeCalculator",
